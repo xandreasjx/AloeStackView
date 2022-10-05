@@ -469,7 +469,7 @@ open class AloeStackView: UIScrollView {
 
   // MARK: - Private
 
-  private let stackView = UIStackView()
+  public let stackView = UIStackView()
 
   private var stackViewAxisConstraint: NSLayoutConstraint?
 
